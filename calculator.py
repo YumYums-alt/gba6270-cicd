@@ -19,8 +19,3 @@ def square(a):
 def cube(a):
     """Return a cubed."""
     return a * a * a
-
-
-def multiply(a, b):
-    """Return a times b."""
-    return a * b
