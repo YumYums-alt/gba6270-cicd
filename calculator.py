@@ -14,3 +14,8 @@ def subtract(a, b):
 def square(a):
     """Return a squared."""
     return a * a
+
+
+def cube(a):
+    """Return a cubed."""
+    return a * a * a

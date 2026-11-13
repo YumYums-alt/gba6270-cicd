@@ -1,7 +1,7 @@
 """Unit tests for calculator.py. Jenkins runs these on every push."""
 import unittest
 
-from calculator import add, subtract, square
+from calculator import add, subtract, square, cube
 
 
 class TestCalculator(unittest.TestCase):
@@ -16,6 +16,9 @@ class TestCalculator(unittest.TestCase):
       
     def test_square(self):
         self.assertEqual(square(4), 16)
+
+    def test_cube(self):
+        self.assertEqual(cube(3), 27)
 
 
 if __name__ == "__main__":
