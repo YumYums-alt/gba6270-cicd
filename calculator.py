@@ -9,3 +9,8 @@ def add(a, b):
 def subtract(a, b):
     """Return a minus b."""
     return a - b
+
+
+def square(a):
+    """Return a squared."""
+    return a * a
