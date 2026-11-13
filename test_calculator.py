@@ -1,7 +1,7 @@
 """Unit tests for calculator.py. Jenkins runs these on every push."""
 import unittest
 
-from calculator import add, subtract, square, cube
+from calculator import add, subtract, square, cube, multiply
 
 
 class TestCalculator(unittest.TestCase):
